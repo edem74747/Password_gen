@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: ubuntu;
+}
+
+body {
+  height: 100vh;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-inline: 4em;
+}
+
+h1 {
+  color: white;
+  font-size: 3rem;
+  margin-block: 1em;
+}
+
+i {
+  color: orange;
+  font-size: 1.5rem;
+}
+
+span {
+  display: block;
+  color: orange;
+  font-weight: 300;
+}
+
+input {
+  width: 20em;
+  height: 3em;
+  border-radius: 0.5em;
+  border: none;
+  padding-inline: 1em;
+  outline: none;
+}
+
+.wrapper {
+  position: relative;
+}
+
+label {
+  position: absolute;
+  top: 0.39em;
+  right: 1em;
+}
+
+button {
+  margin-block: 2em;
+  font-size: 1.2rem;
+  color: black;
+  background-color: orange;
+  padding: 0.5em;
+  border: 0;
+  border-radius: 0.5em;
+}
+
+button:active {
+  background-color: color-mix(in srgb, orange 50%, white 10%);
+}
